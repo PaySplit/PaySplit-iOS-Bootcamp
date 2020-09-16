@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             
-            // MARK: Change Global Tint
+            // Change Global Tint
             window.tintColor = PSColor.primary.value
             window.overrideUserInterfaceStyle = .dark
             

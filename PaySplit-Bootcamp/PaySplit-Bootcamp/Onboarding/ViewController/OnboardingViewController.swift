@@ -125,7 +125,7 @@ class OnboardingViewController: UIViewController, UICollectionViewDelegate, UICo
         }
     }
 
-    // MARK: View did load
+    // View did load
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.clear
@@ -163,7 +163,7 @@ class OnboardingViewController: UIViewController, UICollectionViewDelegate, UICo
         return cv
     }()
 
-    // MARK: Skip Button Pressed
+    // Skip Button Pressed
     /// Close the Onboarding View
     @objc func skipButtonPressed() {
         Vibration.light.vibrate()
@@ -175,7 +175,7 @@ class OnboardingViewController: UIViewController, UICollectionViewDelegate, UICo
 
     }
 
-    // MARK: Layout
+    // Layout
     /// Set layout for everything in onboardingVC
     func setupCollectionConstraints() {
         
